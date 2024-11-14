@@ -1,0 +1,43 @@
+/* Basic custom styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin-top: 60px;
+}
+
+.hero {
+    background-color: #6c757d;
+    color: rgb(132, 174, 194);
+    padding: 60px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.about img {
+    max-width: 100%;
+}
+
+.skills ul,
+.projects ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #212529;
+    color: rgb(68, 68, 68);
+}
